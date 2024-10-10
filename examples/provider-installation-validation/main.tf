@@ -7,11 +7,11 @@ terraform {
 }
 
 provider "teradata-clearscape" {
-  token = "***REMOVED***"
+  token = "<<token>>"
 }
 
 resource "teradata-clearscape_environment" "edu1" {
-  name = "terraformtest"
+  name = "terrademo12"
   region = "us-central"
   password = "terraformtest"
 }
